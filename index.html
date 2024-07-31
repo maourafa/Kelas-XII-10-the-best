@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start-screen" id="start-screen">
+        <button class="start-button" onclick="showClassPage()">Start</button>
+    </div>
+
+    <div class="class-page" id="class-page" style="display: none;">
+        <h1 class="class-name">KELAS XII.10</h1>
+        <div class="schedule">
+            <h2>Jadwal Pelajaran</h2>
+            <table>
+                <tr>
+                    <th>Hari</th>
+                    <th>Mata Pelajaran</th>
+                </tr>
+                <tr>
+                    <td>Senin</td>
+                    <td>Matematika, Bahasa Inggris</td>
+                </tr>
+                <tr>
+                    <td>Selasa</td>
+                    <td>IPA, IPS</td>
+                </tr>
+                <tr>
+                    <td>Rabu</td>
+                    <td>Bahasa Indonesia, PKN</td>
+                </tr>
+                <tr>
+                    <td>Kamis</td>
+                    <td>Olahraga, Seni Budaya</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>Agama, Prakarya</td>
+                </tr>
+            </table>
+        </div>
+        <div class="class-map">
+            <h2>Denah Kelas</h2>
+            <img src="path/to/denah_kelas.png" alt="Denah Kelas">
+        </div>
+        <div class="students-list">
+            <h2>Daftar Siswa</h2>
+            <div class="students">
+                <!-- Repeat this div for each student -->
+                <div class="student">
+                    <img src="path/to/student_photo.png" alt="Nama Siswa">
+                    <p>Nama Siswa</p>
+                </div>
+                <!-- End of student div -->
+                <!-- Repeat this div for each student -->
+                <div class="student">
+                    <img src="path/to/student_photo.png" alt="Nama Siswa">
+                    <p>Nama Siswa</p>
+                </div>
+                <!-- End of student div -->
+                <!-- Add more student divs as needed -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
